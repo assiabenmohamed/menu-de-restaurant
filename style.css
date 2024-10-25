@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Akaya Kanadaka", serif;
+
+}
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+
+}
+span{
+    margin-left: 4em;
+}
+.menu{
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: white;
+padding-left: 5%;
+}
+.menu{
+    position: relative;
+}
+.menu .imghead{
+    width: 500px;
+    height: 80px;
+   
+
+}
+.menu header{
+    margin-left: 25%;
+}
+.menu h1{
+     color: white;
+    top: 45px;
+    left:40%;
+    /* background-image: url(./images/bg.PNG);
+    background-size:cover ;
+    background-repeat: no-repeat;     */
+    position:absolute;
+}
+.menu h2{
+    color: #D61600;
+}
+.menu .plat{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+.right .bgimage{
+    margin-top: -30px;
+    width: 350px;
+    margin-left: 50px;
+
+}
+.menu .plat .platentree{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top :40px;
+    right: 110px;
+    animation: swing;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+.menu .desert{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+.desert .left .bgimage{
+    margin-left: -40px;
+    width: 350px;
+
+}
+.menu .desert .desertimg{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top :70px;
+    left: 50px;
+    animation: swing;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+}
+.desert .right{
+    padding-left: 100px;
+    margin-top: -20px;
+}
